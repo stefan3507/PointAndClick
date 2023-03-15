@@ -1,1 +1,1 @@
-document.getElementById("main").appendChild(document.createTextNode("hello kanker stijn"));
+document.getElementById("mainTitle").appendChild(document.createTextNode("kanker stijn"));
