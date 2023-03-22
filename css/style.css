@@ -4,7 +4,6 @@ body{
     grid-template-columns: auto 800px auto;
     grid-template-rows: auto auto;
     display: grid;
-    animation: all 2 ease-in-out;
 }
 
 #mainTitle{
@@ -30,6 +29,8 @@ body{
 .character{
     position: absolute;
     z-index: 100;
+    transition: all 1.5s ease-in-out;
+    scale: 1.5;
 }
 
 .foreground{
