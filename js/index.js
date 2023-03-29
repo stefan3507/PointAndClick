@@ -30,12 +30,12 @@ gameWindow.onclick = function (e) {
     console.log(e.target.id);
 
     switch (e.target.id) {
-        case "door1":
+        case "house2":
             //something insert here
             if (checkItem("rusty key")) {
-                showMessage(mainCharacterSpeech, characterAudio, "This key fits and it's open now..");
+                showMessage(mainCharacterSpeech, characterAudio, "This key fits the door is open<br> wow there is a secret tunnel maybe it will take me to that other island..");
             } else {
-                showMessage(mainCharacterSpeech, characterAudio, "this is door one.<br> And it's locked dummy...");
+                showMessage(mainCharacterSpeech, characterAudio, "the door is locked");
 
             }
             break;
@@ -43,9 +43,9 @@ gameWindow.onclick = function (e) {
             //something insert here
             showMessage(mainCharacterSpeech, characterAudio, "noboby is home...<br> Come back later..");
             break;
-        case "tree":
+        case "grave":
             //something insert here
-            showMessage(mainCharacterSpeech, characterAudio, "Nice tree... looking good.. You come here often? nudge nudge...");
+            showMessage(mainCharacterSpeech, characterAudio, "cool house");
             break;
         case "signToLeft":
             //something insert here
@@ -60,10 +60,10 @@ gameWindow.onclick = function (e) {
             setTimeout(function () { counterPortrait.style.opacity = 0; }, 16 * sec);
             setTimeout(showMessage, 16 * sec, mainCharacterSpeech, characterAudio, "Wait! What?");
             break;
-        case "grave":
+        case "tree":
             if (!checkItem("rusty key")) {
                 getItem("rusty key");
-                showMessage(mainCharacterSpeech, characterAudio, "Wow I found a rusty key!<br>Must been lying here for ages..");
+                showMessage(mainCharacterSpeech, characterAudio, "Wow I found a key!<br>I wonder what i can do with it..");
                 setTimeout(hideMessage, 4 * sec, mainCharacterSpeech, characterAudio);
             } else {
                 showMessage(mainCharacterSpeech, characterAudio, "Nope nothing here...");

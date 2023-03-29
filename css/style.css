@@ -49,12 +49,11 @@ p {
     scale: 1.5;
 }
 
-#door1 {
+#house2 {
     top: 287px;
     left: 177px;
     width: 32px;
     height: 64px;
-
 }
 
 #door2 {
@@ -78,9 +77,9 @@ p {
     height: 64px;
 }
 
-#tree1 {
-    top: 400px;
-    left: 667px;
+#house {
+    top: 480px;
+    left: 650px;
 }
 
 #signToLeft {
@@ -115,7 +114,7 @@ p {
 
 #hero {
     left: 15px;
-    bottom: 0px;
+    bottom: -15px;
     scale: 6;
 }
 
