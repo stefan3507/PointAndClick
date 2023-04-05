@@ -60,7 +60,6 @@ p {
     width: 40px;
     height: 50px;
     background-color: #555;
-    opacity: 50%;
 }
 
 #wisetree {
@@ -77,7 +76,6 @@ p {
     width: 50px;
     height: 60px;
     background-color: #555;
-    opacity: 50%;
 }
 
 #oldhouse {
@@ -86,7 +84,6 @@ p {
     width: 50px;
     height: 60px;
     background-color: #555;
-    opacity: 50%;
 }
 
 #signToLeft {
@@ -199,7 +196,6 @@ p {
     width: 800px;
     height: 199px;
     background-color: #555;
-    opacity: 50%;
 }
 
 #water2{
@@ -208,7 +204,6 @@ p {
     width: 286px;
     height: 409px;
     background-color: #555;
-    opacity: 50%;
 }
 
 #water3{
@@ -217,7 +212,6 @@ p {
     width: 515px;
     height: 80px;
     background-color: #555;
-    opacity: 50%;
 }
 
 
@@ -226,7 +220,6 @@ p {
     left: 110px;
     width: 90px;
     height: 70px;
-    opacity: 50%;
     background-color: #555;
 }
 
@@ -236,7 +229,6 @@ p {
     width: 660px;
     height: 610px;
     background-color: #555;
-    opacity: 50%;
 }
 
 #water5 {
@@ -245,7 +237,6 @@ p {
     width: 800px;
     height: 80px;
     background-color: #555;
-    opacity: 50%;
 }
 
 #house3 {
@@ -254,7 +245,6 @@ p {
     width: 40px;
     height: 50px;
     background-color: #555;
-    opacity: 50%;
 }
 #house4 {
     top: 180px;
@@ -262,7 +252,6 @@ p {
     width: 40px;
     height: 50px;
     background-color: #555;
-    opacity: 50%;
 }
 #house5 {
     top: 305px;
@@ -270,7 +259,6 @@ p {
     width: 40px;
     height: 50px;
     background-color: #555;
-    opacity: 50%;
 }
 #house6 {
     top: 414px;
@@ -278,6 +266,5 @@ p {
     width: 40px;
     height: 50px;
     background-color: #555;
-    opacity: 50%;
 }
 
