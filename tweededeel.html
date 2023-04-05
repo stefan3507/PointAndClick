@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,13 +8,13 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@400;700&family=Shrikhand&display=swap"rel="stylesheet">
-    <title>point and click adventure</title>
+    <title>Point And Click Adventure</title>
 </head>
-
 <body>
     <div id="title">
         <h1 id="mainTitle"></h1>
     </div>
+
     <div id="gameWindow">
         <!--dialog bar-->
         <div id="dialogBar" class="foreground">
@@ -29,7 +28,6 @@
             </div>
         </div>
 
-        <!-- inventory -->
         <div id="invetoryBox" class="foreground">
             <p>Inventory</p>
             <ul id="inventoryList">
@@ -37,40 +35,39 @@
             </ul>
         </div>
 
-
-        <!--Foreground-->
-
-        <div id="waters">
-            <div id="water1" class="foreground"></div>
-            <div id="water2" class="foreground"></div>
-            <div id="water3" class="foreground"></div>
-        </div>
-        <div id="door1" class="foreground"></div>
-        <div id="oldhouse" class="foreground"></div>
-        <img src="img/tree.png" id="wisetree" class="foreground" alt="sprookjesboom">
-        <div id="pond" class="foreground"></div>
-
         <!-- Character -->
-        <div id="mainCharacter" class="character">
+        <div itemid="mainCharacter2" id="mainCharacter" class="character">
             <img src="img/char.png" alt="main character">
         </div>
 
+        
+        <div id="house3" class="foreground"></div>
+        <div id="house4" class="foreground"></div>
+        <div id="house5" class="foreground"></div>
+        <div id="house6" class="foreground"></div>
 
-        <!-- Background -->
-        <div id="tilemap1" class="background">
-            <img draggable="false" src="img/level design.jpg" alt="tilemap1" id="tilemapimg">
+        <div id="water4" class="foreground"></div>
+        <div id="water5" class="foreground"></div>
+
+
+        <div id="boat" class="foreground"><link rel="stylesheet" href="win.html"></div>
+
+         <div id="tilemap2" class="background">
+            <img draggable="false" src="img/level design.jpg" alt="tilemap2" id="tilemapimg2">
         </div>
+
     </div>
 
-    <audio id="characterAudio">
-        <source src="audio/Gibberish - Sound Effect_01.ogg" type="audio/ogg">
-        <source src="audio/Gibberish - Sound Effect_01.mp3" type="audio/mpeg">
-    </audio>
-    <audio id="counterAudio">
-        <source src="" type="audio/ogg">
-        <source src="" type="audio/mpeg">
-    </audio>
-    <script src="js/index.js"></script>
-</body>
 
+
+        <audio id="characterAudio">
+            <source src="audio/Gibberish - Sound Effect_01.ogg" type="audio/ogg">
+            <source src="audio/Gibberish - Sound Effect_01.mp3" type="audio/mpeg">
+        </audio>
+        <audio id="counterAudio">
+            <source src="" type="audio/ogg">
+            <source src="" type="audio/mpeg">
+        </audio>
+        <script src="js/index.js"></script>
+</body>
 </html>

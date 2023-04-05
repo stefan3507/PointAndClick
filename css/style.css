@@ -40,46 +40,51 @@ p {
     transition: all 1s ease-in-out;
 }
 
-#tilemap {}
+#mainCharacter2{
+    top: 260px;
+    left: 80px;
+}
 
 #mainCharacter {
-    top: 160px;
-    left: 392px;
+    top: 330px;
+    left: 592px;
     transition: all 1s ease-in-out;
     scale: 1.5;
 }
 
-#house2 {
-    top: 287px;
-    left: 177px;
-    width: 32px;
-    height: 64px;
+#door1 {
+    top: 241px;
+    left: 367px;
+    width: 40px;
+    height: 50px;
+    background-color: #555;
+    opacity: 50%;
 }
 
-#door2 {
-    top: 64px;
-    left: 496px;
-    width: 32px;
-    height: 64px;
+#wisetree {
+    top: 390px;
+    left: 735px;
+    width: 30px;
+    height: 40px;
+    scale: 1.5;
 }
 
-#statue {
-    top: 287px;
-    left: 703px;
-    width: 32px;
-    height: 64px;
+#pond {
+    top: 395px;
+    left: 501px;
+    width: 50px;
+    height: 60px;
+    background-color: #555;
+    opacity: 50%;
 }
 
-#grave {
-    top: 482px;
-    left: 257px;
-    width: 32px;
-    height: 64px;
-}
-
-#house {
-    top: 480px;
-    left: 650px;
+#oldhouse {
+    top: 445px;
+    left: 633px;
+    width: 50px;
+    height: 60px;
+    background-color: #555;
+    opacity: 50%;
 }
 
 #signToLeft {
@@ -87,6 +92,12 @@ p {
     left: 450px;
     width: 32px;
     height: 32px;
+}
+
+#rubyContainer {
+    top: 324px;
+    left: 209px;
+    opacity: 0;
 }
 
 #platform {
@@ -113,9 +124,9 @@ p {
 }
 
 #hero {
-    left: 15px;
-    bottom: -15px;
-    scale: 6;
+    left: 0px;
+    bottom: 0px;
+    scale: 4;
 }
 
 #mainCharacterSpeech {
@@ -124,9 +135,10 @@ p {
 }
 
 #counterCharacter {
-    right: 0px;
-    bottom: 0px;
+    right: -25px;
+    bottom: -10px;
     opacity: 0;
+    scale: 0.8;
     transition: all 1s ease-in-out;
 }
 
@@ -178,3 +190,92 @@ p {
     width: 300px;
     transition: all 1s ease-in-out;
 }
+
+#water1{
+    top: 0px;
+    left: 0px;
+    width: 800px;
+    height: 199px;
+    background-color: #555;
+    opacity: 50%;
+}
+
+#water2{
+    top: 199px;
+    left: 0px;
+    width: 286px;
+    height: 409px;
+    background-color: #555;
+    opacity: 50%;
+}
+
+#water3{
+    top: 529px;
+    left: 285px;
+    width: 515px;
+    height: 80px;
+    background-color: #555;
+    opacity: 50%;
+}
+
+
+#boat {
+    top: 65px;
+    left: 110px;
+    width: 60px;
+    height: 40px;
+    opacity: 50%;
+    background-color: #555;
+}
+
+#water4 {
+    top: 0px;
+    left: 140px;
+    width: 660px;
+    height: 610px;
+    background-color: #555;
+    opacity: 50%;
+}
+
+#water5 {
+    top: 530px;
+    left: 0px;
+    width: 800px;
+    height: 80px;
+    background-color: #555;
+    opacity: 50%;
+}
+
+#house3 {
+    top: 32px;
+    left: 25px;
+    width: 40px;
+    height: 50px;
+    background-color: #555;
+    opacity: 50%;
+}
+#house4 {
+    top: 180px;
+    left: 36px;
+    width: 40px;
+    height: 50px;
+    background-color: #555;
+    opacity: 50%;
+}
+#house5 {
+    top: 305px;
+    left: 11px;
+    width: 40px;
+    height: 50px;
+    background-color: #555;
+    opacity: 50%;
+}
+#house6 {
+    top: 414px;
+    left: 51px;
+    width: 40px;
+    height: 50px;
+    background-color: #555;
+    opacity: 50%;
+}
+
