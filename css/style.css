@@ -41,8 +41,10 @@ p {
 }
 
 #mainCharacter2{
-    top: 260px;
-    left: 80px;
+    top: 460px;
+    left: 55px;
+    transition: all 1s ease-in-out;
+    scale: 1.5;
 }
 
 #mainCharacter {
@@ -222,8 +224,8 @@ p {
 #boat {
     top: 65px;
     left: 110px;
-    width: 60px;
-    height: 40px;
+    width: 90px;
+    height: 70px;
     opacity: 50%;
     background-color: #555;
 }

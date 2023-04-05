@@ -8,7 +8,7 @@ const sec = 1000;
 let tempTimeOut;
 
 //Main character
-const mainCharacter = document.getElementById("mainCharacter");
+const mainCharacter = document.getElementById("mainCharacter2");
 const characterAudio = document.getElementById("characterAudio");
 const mainCharacterSpeech = document.getElementById("mainCharacterSpeech");
 
