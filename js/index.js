@@ -62,8 +62,8 @@ gameWindow.onclick = function (e) {
                     setTimeout(hideMessage, 4 * sec, mainCharacterSpeech, characterAudio);
                 }
                 break;
-            case "signToLeft":
-                showMessage(mainCharacterSpeech, characterAudio, "Okay that house on the left<br>that's the house of the town wizard.");
+            case "spawn":
+                showMessage(mainCharacterSpeech, characterAudio, "i should probaly talk to that tree");
                 break;
             case "wisetree":
                 counterPortrait.style.opacity = 1;

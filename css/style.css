@@ -256,3 +256,10 @@ p {
     height: 50px;
 }
 
+#spawn {
+    top: 330px;
+    left: 592px;
+    width: 10px;
+    height: 10px;
+}
+
